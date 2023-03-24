@@ -95,7 +95,7 @@ div input#ilogin{
 }
 
 div input#isenha{
-    padding: auto;
+    padding-top: auto;
 }
 
 div.campo > input{
