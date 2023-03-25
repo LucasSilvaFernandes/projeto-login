@@ -69,6 +69,7 @@ div#formulario > p{
 }
 
 div.campo{
+    position: relative;
     background-color: #5f2c82;
     border: 1px solid #5f2c82;
     width: 100%;
@@ -95,12 +96,14 @@ div.campo > span{
 
 div.campo > input{
     font-size: 1em;
-    width: calc(100% - 47px);
+    width: calc(100% - 42px);
     height: 88%;
     padding: 4px 0px;
     border: 0px;
     border-radius: 8px;
     transform: translateY(-10px);
+    position: absolute;
+    top: 34%;
     
 }
 
