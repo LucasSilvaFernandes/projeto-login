@@ -2,12 +2,23 @@
 
 
 
+@media screen and (orientation: landscape){
+    section#login{
+        height: 60vh;
+    }
+}
+
+
+
+/* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+
     section#login{
         width: 80vw;
+        height: 60vh;
     }
 
     div#imagem{
@@ -32,6 +43,7 @@
     }
     section#login{
         width: 960px;
+        height: 60vh;
     }
 
     div#imagem{

@@ -91,18 +91,16 @@ div.campo > span{
     width: 40px;
 }
 
-div input#ilogin{
-    height: 93%;
-}
+
 
 div.campo > input{
     font-size: 1em;
-    width: calc(100% - 48px);
-    height: 95%;
-    padding: 4px;
+    width: calc(100% - 47px);
+    height: 100%;
+    padding: 4px 0px;
     border: 0px;
     border-radius: 8px;
-    transform: translateY(-9.5px);
+    transform: translateY(-10px);
     
 }
 
@@ -116,6 +114,7 @@ form > input[type=submit]{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 7px;
 }
 
 form > input[type=submit]:hover{
@@ -123,8 +122,9 @@ form > input[type=submit]:hover{
 }
 
 form > a.botao{
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1em;
     width: 100%;
     height: 40px;
